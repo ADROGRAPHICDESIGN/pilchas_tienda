@@ -1,0 +1,53 @@
+a {text-decoration: none;}
+h4{
+    font-family: 'Franklin Gothic Medium';
+    background-color: #141414;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding: 5px 70px 5px 70px; 
+    border-radius: 15px;
+    font-size: x-large;
+
+}
+
+h1{color:rgb(255, 255, 255);font-family: Arial, Helvetica, sans-serif; text-align: center;font-size: 500%;padding-top: 10px;}
+    
+h3{color:rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; text-align: center;}
+
+h2{color:rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; text-align: center;}
+    
+p{color:rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; text-align: justify;}
+   
+footer{color:rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;}
+
+
+
+nav { 
+background-color: #333;
+}
+
+nav ul {
+list-style-type: none; /* Elimina los puntos de la lista */
+margin: 0;
+padding: 0;
+display: flex; /* Utiliza flexbox para distribuir los elementos */
+justify-content: space-between; /* Espacio igual entre los elementos */
+width: 100%; /* Ocupa todo el ancho de la pantalla */
+}
+
+nav ul li {
+flex-grow: 1; /* Hace que cada elemento se expanda para ocupar el mismo ancho */
+}
+
+nav ul li a {
+display: block;
+text-align: center; /* Centra el texto dentro del enlace */
+padding: 15px 0; /* Ajusta el relleno para que ocupe espacio vertical */
+color: white;
+text-decoration: none;
+background-color: #333; /* Fondo del enlace */
+}
+
+nav ul li a:hover {
+background-color: #575757; /* Cambia el color al pasar el mouse */
+}
